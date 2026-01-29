@@ -36,7 +36,7 @@ _init() async {
   await dotenv.load(fileName: ".dev.env");
   // await dotenv.load(fileName: ".live.env");
   await Preferences.initPref();
-  await Upgrader.clearSavedSettings();
+ // await Upgrader.clearSavedSettings();
   // await FirebaseHelper.init();
   // Initialize Internet Monitoring
   InternetStatusManager().initialize();
